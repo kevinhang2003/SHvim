@@ -45,3 +45,4 @@ let g:tagbar_type_systemverilog = {
         \ 'task'      : 't',
      \ },
      \}
+nmap <F8> : TagbarToggle<CR>

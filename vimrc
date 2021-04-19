@@ -60,27 +60,28 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 "--------- FZF-----------
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
+" Plug 'airblade/vim-rooter'
 "------ Apearance -------
-Plug 'gruvbox-community/gruvbox'
+" Plug 'gruvbox-community/gruvbox'
+Plug 'lifepillar/vim-gruvbox8'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "--------- ALE ----------
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 "----- Highlight %  -----
 Plug 'vimtaku/hl_matchit.vim'
 "------- Tagbar ---------
 Plug 'preservim/tagbar'
 "------- Deoplete -------
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+" if has('nvim')
+" 	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/deoplete.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
 "--------- CoC ----------
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "------- Supertab -------
@@ -90,6 +91,8 @@ Plug 'godlygeek/tabular'
 "------- Snippet --------
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+"------ EasyMotion ------
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 augroup Systemverilog
