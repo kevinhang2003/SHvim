@@ -1,3 +1,3 @@
 # SHvim
 My vim setting
-https://drive.google.com/file/d/1BnAyjiRLc2_VM63hZR0m_eSZ5XAMMcL1/view?usp=sharing
+https://drive.google.com/file/d/12PQxM-I7vpFFbTyDCM4TGLHHHKGj7vYF/view?usp=sharing
